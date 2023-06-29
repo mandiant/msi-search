@@ -1,6 +1,6 @@
 # MSI Search
 
-Windows caches MSI files at `C:\Windows\Installer\` with randomized filenames consisting of letters and numbers followed by the ".msi" extension. This tool simplifies the task for red team operators to identify which MSI files correspond to which software and enables them to download the relevant file to investigate local privilege escalation vulnerabilities through MSI repairs. Read more *here* on how to identify privilege escalation vulnerabilities via MSI repairs.
+Windows caches MSI files at `C:\Windows\Installer\` with randomized filenames consisting of letters and numbers followed by the ".msi" extension. This tool simplifies the task for red team operators to identify which MSI files correspond to which software and enables them to download the relevant file to investigate local privilege escalation vulnerabilities through MSI repairs. Read more at [Elevating Privileges via Third-Party Windows Installers] on how to identify privilege escalation vulnerabilities via MSI repairs.
 
 Author: Andrew Oliveau (@AndrewOliveau)
 
@@ -13,8 +13,16 @@ i686-w64-mingw32-gcc -c msi_search.c -o msi_search.x86.o
 
 ## Usage
 
-Aggressor script included. Import it and run `msi_search`. Alternatively, run the PowerShell script `msi_search.ps1`.
+Aggressor script included. Import it into Cobalt Strike and run `msi_search`. Alternatively, run the PowerShell script `msi_search.ps1`.
 
-![til](/demo.png "Demo")
 
-![til](/demo2.png "Demo2")
+<img src="https://github.com/googlestaging/msi-search/assets/32691065/50aa9607-575f-4e0d-82e4-b32d02ffdd48" width="300" height="380">
+
+
+<br>
+
+
+<img src="https://github.com/googlestaging/msi-search/assets/32691065/ee64d129-58f2-4bc3-aa00-738f710b1748" width="360" height="280">
+
+
+[Elevating Privileges via Third-Party Windows Installers]: https://www.mandiant.com/resources/blog/privileges-third-party-windows-installers?auHash=0SnaFvuqMHadnw4az4gYD06-fMn6xaWSSXg1FwY92IU
