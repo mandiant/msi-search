@@ -1,6 +1,6 @@
 # MSI Search
 
-Windows caches MSI files at `C:\Windows\Installer\` with randomized filenames consisting of letters and numbers followed by the ".msi" extension. This tool simplifies the task for red team operators to identify which MSI files correspond to which software and enables them to download the relevant file to investigate local privilege escalation vulnerabilities through MSI repairs. Read more at [Elevating Privileges via Third-Party Windows Installers] on how to identify privilege escalation vulnerabilities via MSI repairs.
+Windows caches MSI files at `C:\Windows\Installer\` with randomized filenames consisting of letters and numbers followed by the ".msi" extension. This tool simplifies the task for red team operators and security teams to identify which MSI files correspond to which software and enables them to download the relevant file to investigate local privilege escalation vulnerabilities through MSI repairs. Read more about MSI repair vulnerabilities at [Elevating Privileges via Third-Party Windows Installers].
 
 Author: Andrew Oliveau (@AndrewOliveau)
 
