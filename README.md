@@ -16,7 +16,7 @@ i686-w64-mingw32-gcc -c msi_search.c -o msi_search.x86.o
 Aggressor script included. Import it into Cobalt Strike and run `msi_search`. Alternatively, run the PowerShell script `msi_search.ps1`.
 
 
-<img src="https://github.com/googlestaging/msi-search/assets/32691065/50aa9607-575f-4e0d-82e4-b32d02ffdd48" width="300" height="380">
+<img src="https://github.com/googlestaging/msi-search/assets/32691065/50aa9607-575f-4e0d-82e4-b32d02ffdd48" width="360" height="456">
 
 
 <br>
