@@ -16,13 +16,13 @@ i686-w64-mingw32-gcc -c msi_search.c -o msi_search.x86.o
 Aggressor script included. Import it into Cobalt Strike and run `msi_search`. Alternatively, run the PowerShell script `msi_search.ps1`.
 
 
-<img src="https://github.com/googlestaging/msi-search/assets/32691065/50aa9607-575f-4e0d-82e4-b32d02ffdd48" width="360" height="456">
+<img src="https://github.com/mandiant/msi-search/assets/32691065/a83752e5-52ac-4137-8dad-6d76b5a30fcf" width="360" height="456">
 
 
 <br>
 
 
-<img src="https://github.com/googlestaging/msi-search/assets/32691065/ee64d129-58f2-4bc3-aa00-738f710b1748" width="360" height="280">
+<img src="https://github.com/mandiant/msi-search/assets/32691065/2e486fc1-8184-40d1-80b5-85b7b794cf12" width="360" height="280">
 
 
 [Elevating Privileges via Third-Party Windows Installers]: https://www.mandiant.com/resources/blog/privileges-third-party-windows-installers?auHash=0SnaFvuqMHadnw4az4gYD06-fMn6xaWSSXg1FwY92IU
