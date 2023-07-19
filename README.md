@@ -25,4 +25,4 @@ Aggressor script included. Import it into Cobalt Strike and run `msi_search`. Al
 <img src="https://github.com/mandiant/msi-search/assets/32691065/2e486fc1-8184-40d1-80b5-85b7b794cf12" width="360" height="280">
 
 
-[Elevating Privileges via Third-Party Windows Installers]: https://www.mandiant.com/resources/blog/privileges-third-party-windows-installers?auHash=0SnaFvuqMHadnw4az4gYD06-fMn6xaWSSXg1FwY92IU
+[Escalating Privileges via Third-Party Windows Installers]: https://www.mandiant.com/resources/blog/privileges-third-party-windows-installers?auHash=0SnaFvuqMHadnw4az4gYD06-fMn6xaWSSXg1FwY92IU
