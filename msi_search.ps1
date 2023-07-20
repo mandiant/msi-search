@@ -18,8 +18,8 @@ $folderPath = "C:\Windows\Installer"
 $msiFiles = Get-ChildItem -Path $folderPath -Filter "*.msi" -File
 
 foreach ($file in $msiFiles) {
-    Write-Host "-----------------------------"
-    Write-Host "File: $($file.FullName)"
+    Write-Output "-----------------------------"
+    Write-Output "File: $($file.FullName)"
 
     try {
         $database = (New-Object -ComObject WindowsInstaller.Installer).OpenDatabase($file.FullName, 0)
@@ -28,7 +28,7 @@ foreach ($file in $msiFiles) {
         $record = $view.Fetch()
         if ($record -ne $null) {
             $manufacturer = $record.StringData(1)
-            Write-Host "Manufacturer: $manufacturer"
+            Write-Output "Manufacturer: $manufacturer"
         }
         
 
@@ -37,7 +37,7 @@ foreach ($file in $msiFiles) {
         $record = $view.Fetch()
         if ($record -ne $null) {
             $productName = $record.StringData(1)
-            Write-Host "ProductName: $productName"
+            Write-Output "ProductName: $productName"
         }
         
 
@@ -46,12 +46,12 @@ foreach ($file in $msiFiles) {
         $record = $view.Fetch()
         if ($record -ne $null) {
             $productVersion = $record.StringData(1)
-            Write-Host "ProductVersion: $productVersion"
+            Write-Output "ProductVersion: $productVersion"
         }
     
     
     }
     catch {
-        Write-Host "Error: $($_.Exception.Message)"
+        Write-Output "Error: $($_.Exception.Message)"
     }
 }
